@@ -8,7 +8,7 @@ Anaconda environment used in order to test the code implemented for "Automatic S
     * conda activate [Environment Name]
 3. Build PCL library and install it
     * conda build pcl 
-    * conda install -c ${CONDA_PREFIX}/conda-bld/ pcl
+    * conda install file://${CONDA_PREFIX}/conda-bld/linux-64/pcl-1.8.1-0.tar.bz2
 4. Build and install python-pcl wrapper
     * conda build python-pcl --python=3.6
     * conda install -c ${CONDA_PREFIX}/conda-bld/ python-pcl
